@@ -1,0 +1,4 @@
+my_own_string = "I am writing my first string!"
+import random
+list1 = (my_own_string[0:len(my_own_string)])
+print(random.choice(list1))
