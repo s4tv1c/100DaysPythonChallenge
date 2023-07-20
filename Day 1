@@ -1,4 +1,20 @@
+#random.choice function
 my_own_string = "I am writing my first string!"
 import random
 list1 = (my_own_string[0:len(my_own_string)])
-print(random.choice(list1))
+print(random.choice(list1)) #printing a random letter between the start and the end of my string
+
+#random.randint function
+my_own_string = "This is my own string!"
+
+import random
+list1 = random.randint(0,50)
+print(my_own_string[0:11])
+print(my_own_string[0:list1:2]) #Printing a random letter while slicing with a step
+
+#using random.choice function and inserting strings to a string
+import random
+list1 = ['summer','winter','autum','spring']
+
+str1 = "I like the %s" % (random.choice(list1))
+print(str1)
